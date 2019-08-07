@@ -6,3 +6,7 @@ server:
   tomcat:
     remote-ip-header: X-Real-IP
     protocol-header: X-Forwarded-Proto
+spring:
+ mvc:
+  static-path-pattern: /**
+    # 默认值为 classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
